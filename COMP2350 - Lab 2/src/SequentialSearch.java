@@ -1,6 +1,10 @@
 import java.util.Scanner ;
 
 /**
+ * Uses an inputed integer to see if there is a match within an inputed list of
+ * integers. Returns index of where the integer occurs if found, or that the integer
+ * could not be found if not in the list.
+ * 
  * @author Laura Wysocki and Bryan DeFaria
  *
  * @version 1.0.0 2023-02-04 Initial implementation
@@ -9,6 +13,9 @@ public class SequentialSearch
     {
 
     /**
+     * Uses sequential search to search though and array and see if a match can be
+     * fount to a search key
+     * 
      * @param array
      *     input of list of integers
      * @param searchKey
@@ -36,6 +43,8 @@ public class SequentialSearch
 
 
     /**
+     * Formats and displays to console user input and program output
+     * 
      * @param args
      *     an array of command-line arguments for the application
      */

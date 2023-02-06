@@ -1,6 +1,9 @@
 import java.util.Scanner ;
 
 /**
+ * Takes in String of integers from console and returns the integers in a sorted list
+ * from least to greatest
+ * 
  * @author Laura Wysocki and Bryan DeFaria
  *
  * @version 1.0.0 2023-02-04 Initial implementation
@@ -9,6 +12,8 @@ public class BubbleSort
     {
 
     /**
+     * Uses Bubble Sort to sort an array of integers from least to greatest
+     * 
      * @param array
      *     input of list of integers
      *
@@ -41,6 +46,8 @@ public class BubbleSort
 
 
     /**
+     * Formats and displays to console user input and program output
+     * 
      * @param args
      *     an array of command-line arguments for the application
      */
@@ -48,7 +55,7 @@ public class BubbleSort
         {
         try ( Scanner input = new Scanner( System.in ) )
             {
-            System.out.println( "This program is a demonstration of Bubble Sort on a list of integers.");
+            System.out.println( "This program is a demonstration of Bubble Sort on a list of integers." ) ;
 
             System.out.printf( "Please input size of array: " ) ;
             int arraySize = input.nextInt() ;
