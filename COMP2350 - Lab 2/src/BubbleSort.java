@@ -8,7 +8,7 @@ import java.util.Scanner ;
 public class BubbleSort
     {
 
-    /**
+    /** buble 
      * @param array
      *     input of list of integers
      *
