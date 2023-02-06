@@ -26,9 +26,9 @@ public class SequentialSearch
                 {
                 return i ;
 
-                }
+                } // end if
 
-            }
+            } // end for
 
         return -1 ;
 
@@ -68,12 +68,12 @@ public class SequentialSearch
                 {
                 System.out.printf( "%nItem does not appear in array." ) ;
 
-                }
+                } // end if
             else
                 {
                 System.out.printf( "%nItem appears at index %d.", result ) ;
 
-                }
+                } // end else
 
             } // end try
 
